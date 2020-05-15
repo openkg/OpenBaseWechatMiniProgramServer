@@ -1,0 +1,32 @@
+{
+  "openbaseDB": {
+    "connectionUrl": "数据库连接地址",
+    "dbName": "openbase",
+    "userColName": "user",
+    "entityColName": "entity",
+    "attributeSPOColName":"AttributeSPO",
+    "relationshipSPOColName":"RelationshipSPO",
+    "reviewedSPOColName":"ReviewedSPO"
+  },
+  "redisServer": [
+    {
+      "host": "ip地址",
+      "port": 10000
+    },
+    {
+      "host": "ip地址",
+      "port": 10001
+    },
+    {
+      "host": "ip地址",
+      "port": 10002
+    }
+  ],
+  "smsTencent": {
+    "appID": "腾讯短信服务appID",
+    "appKey": "腾讯短信服务appKey",
+    "templateID": "腾讯短信模板id"
+  },
+  "jwtScrectKey":"自定义的jwt密钥",
+  "port": 6000
+}
