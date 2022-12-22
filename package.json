@@ -20,7 +20,7 @@
     "config": "^3.2.4",
     "express": "^4.17.1",
     "ioredis": "^4.14.1",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "mongodb": "^3.4.0",
     "qcloudsms_js": "^0.1.1",
     "uuid": "^3.3.3",
